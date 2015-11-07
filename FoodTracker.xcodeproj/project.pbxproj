@@ -13,6 +13,7 @@
 		B68A40D31BEDFCB6007545A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68A40D21BEDFCB6007545A1 /* Assets.xcassets */; };
 		B68A40D61BEDFCB6007545A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68A40D41BEDFCB6007545A1 /* LaunchScreen.storyboard */; };
 		B68A40E11BEDFCB6007545A1 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A40E01BEDFCB6007545A1 /* FoodTrackerTests.swift */; };
+		B68A40EC1BEE3218007545A1 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A40EB1BEE3218007545A1 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B68A40DC1BEDFCB6007545A1 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68A40E01BEDFCB6007545A1 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		B68A40E21BEDFCB6007545A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68A40EB1BEE3218007545A1 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B68A40CB1BEDFCB6007545A1 /* AppDelegate.swift */,
 				B68A40CD1BEDFCB6007545A1 /* ViewController.swift */,
 				B68A40CF1BEDFCB6007545A1 /* Main.storyboard */,
+				B68A40EB1BEE3218007545A1 /* RatingControl.swift */,
 				B68A40D21BEDFCB6007545A1 /* Assets.xcassets */,
 				B68A40D41BEDFCB6007545A1 /* LaunchScreen.storyboard */,
 				B68A40D71BEDFCB6007545A1 /* Info.plist */,
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					B68A40C71BEDFCB6007545A1 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = S5AUAS3Y4Z;
 					};
 					B68A40DB1BEDFCB6007545A1 = {
 						CreatedOnToolsVersion = 7.1;
@@ -198,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68A40CE1BEDFCB6007545A1 /* ViewController.swift in Sources */,
+				B68A40EC1BEE3218007545A1 /* RatingControl.swift in Sources */,
 				B68A40CC1BEDFCB6007545A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,10 +332,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yuki.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -338,10 +347,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yuki.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
