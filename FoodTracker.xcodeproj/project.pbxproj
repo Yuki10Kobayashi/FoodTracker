@@ -14,6 +14,10 @@
 		B68A40D61BEDFCB6007545A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68A40D41BEDFCB6007545A1 /* LaunchScreen.storyboard */; };
 		B68A40E11BEDFCB6007545A1 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A40E01BEDFCB6007545A1 /* FoodTrackerTests.swift */; };
 		B68A40EC1BEE3218007545A1 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A40EB1BEE3218007545A1 /* RatingControl.swift */; };
+		B6BD4DAD1C020F4E0013A3D1 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4DAC1C020F4E0013A3D1 /* Meal.swift */; };
+		B6BD4DAE1C020F4E0013A3D1 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4DAC1C020F4E0013A3D1 /* Meal.swift */; };
+		B6BD4DB01C030E3C0013A3D1 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4DAF1C030E3C0013A3D1 /* MealTableViewCell.swift */; };
+		B6BD4DB21C032B950013A3D1 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4DB11C032B950013A3D1 /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,9 @@
 		B68A40E01BEDFCB6007545A1 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		B68A40E21BEDFCB6007545A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B68A40EB1BEE3218007545A1 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		B6BD4DAC1C020F4E0013A3D1 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		B6BD4DAF1C030E3C0013A3D1 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		B6BD4DB11C032B950013A3D1 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +88,10 @@
 			children = (
 				B68A40CB1BEDFCB6007545A1 /* AppDelegate.swift */,
 				B68A40CD1BEDFCB6007545A1 /* ViewController.swift */,
+				B6BD4DAC1C020F4E0013A3D1 /* Meal.swift */,
 				B68A40CF1BEDFCB6007545A1 /* Main.storyboard */,
+				B6BD4DB11C032B950013A3D1 /* MealTableViewController.swift */,
+				B6BD4DAF1C030E3C0013A3D1 /* MealTableViewCell.swift */,
 				B68A40EB1BEE3218007545A1 /* RatingControl.swift */,
 				B68A40D21BEDFCB6007545A1 /* Assets.xcassets */,
 				B68A40D41BEDFCB6007545A1 /* LaunchScreen.storyboard */,
@@ -201,9 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BD4DAD1C020F4E0013A3D1 /* Meal.swift in Sources */,
 				B68A40CE1BEDFCB6007545A1 /* ViewController.swift in Sources */,
 				B68A40EC1BEE3218007545A1 /* RatingControl.swift in Sources */,
 				B68A40CC1BEDFCB6007545A1 /* AppDelegate.swift in Sources */,
+				B6BD4DB21C032B950013A3D1 /* MealTableViewController.swift in Sources */,
+				B6BD4DB01C030E3C0013A3D1 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BD4DAE1C020F4E0013A3D1 /* Meal.swift in Sources */,
 				B68A40E11BEDFCB6007545A1 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +415,7 @@
 				B68A40E71BEDFCB6007545A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68A40E81BEDFCB6007545A1 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +424,7 @@
 				B68A40EA1BEDFCB6007545A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
